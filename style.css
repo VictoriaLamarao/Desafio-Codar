@@ -1,0 +1,236 @@
+html,
+body,
+header,
+ul,
+li,
+img,
+p,
+h1,
+h2,
+h3,
+nav,
+div,
+a,
+section,
+ol {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  right: 0;
+}
+
+.logo {
+  width: 160px;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.menu-listas ul li a {
+  padding: 5px 15px;
+  float: left;
+  color: gray;
+}
+
+.menu-listas ul li a:hover {
+  background-color: #d6000ef4;
+  border-radius: 10px;
+  color: white;
+}
+
+.botao-login {
+  background-color: #d6000d;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 70px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.secao3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-video {
+  margin-top: 100px;
+  width: 400px;
+  align-self: flex-start;
+}
+
+.text1 p {
+  align-self: flex-start;
+}
+
+.menu-listas {
+  gap: 20px;
+}
+
+.button-div {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d6000d;
+  color: white;
+  align-self: flex-start;
+  margin-top: 50px;
+  padding: 20px 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container2 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 img {
+  width: 400px;
+  height: auto;
+}
+
+.colum1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.colum1 form {
+  margin-top: 100px;
+}
+
+.colum1 img {
+  width: 20px;
+}
+
+.div-listas {
+  display: flex !important;
+  gap: 10px;
+}
+
+form input {
+  padding: 5px;
+  border: 1px solid rgb(212, 210, 210);
+}
+
+.botao-enviar {
+  background-color: #d6000d;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 100pxpx;
+  height: 30px;
+}
+
+.img-coding {
+  display: flex;
+}
+
+.img-coding img {
+  margin-bottom: 100px;
+  width: 500px;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.infos img {
+  width: 80px;
+  height: auto;
+  align-self: flex-start;
+}
+
+.box-item {
+  display: flex;
+  width: 45%;
+  height: 200px;
+  background-color: rgb(217, 215, 215);
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: left;
+  align-content: left;
+
+}
+
+.imgcirculo {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    
+    
+}
+
+.caixatext {
+    margin-top: 50px;
+    width: 65%;
+
+
+}
+    
+
+.info-contatos {
+  margin-top: 30px;
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 200px;
+}
+
+.info-contatos ul {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.textcodar {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.imgicons {
+  gap: 20px;
+}
